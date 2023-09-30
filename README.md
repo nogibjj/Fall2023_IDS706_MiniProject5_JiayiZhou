@@ -26,3 +26,7 @@ The dataset is loaded in based on url.  Here is the url: [(https://raw.githubuse
 ### Check format and error:
 Make test, make format, and make lint are run in actions. The commands run smoothly.  
 <img width="1118" alt="Screenshot 2023-09-30 at 5 56 36 PM" src="https://github.com/nogibjj/Fall2023_IDS706_MiniProject5_JiayiZhou/assets/143651921/4304deed-8fac-43ab-a279-8509c00bd95f">
+
+### Visualization of Process:
+![process (3)](https://github.com/nogibjj/Fall2023_IDS706_MiniProject5_JiayiZhou/assets/143651921/f0480b87-bc09-49f4-9d9a-4f483343284c)
+
