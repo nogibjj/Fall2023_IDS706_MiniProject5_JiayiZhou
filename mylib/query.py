@@ -59,7 +59,7 @@ def create_record(
         """
         INSERT INTO Goose 
         (name,year,team,league,goose_eggs,broken_eggs,mehs,league_average_gpct,ppf,replacement_gpct,gwar,key_retro) 
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         (
             name,

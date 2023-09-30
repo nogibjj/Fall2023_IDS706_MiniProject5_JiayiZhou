@@ -31,8 +31,9 @@ def handle_arguments(args):
     print(args.action)
     if args.action == "update_record":
         parser.add_argument("record_id", type=int)
-        parser.add_argument("team")
+        parser.add_argument("name")
         parser.add_argument("year", type=int)
+        parser.add_argument("team")
         parser.add_argument("league")
         parser.add_argument("goose_eggs", type=int)
         parser.add_argument("broken_eggs", type=int)
@@ -44,8 +45,9 @@ def handle_arguments(args):
         parser.add_argument("key_retro")
 
     if args.action == "create_record":
-        parser.add_argument("team")
+        parser.add_argument("name")
         parser.add_argument("year", type=int)
+        parser.add_argument("team")
         parser.add_argument("league")
         parser.add_argument("goose_eggs", type=int)
         parser.add_argument("broken_eggs", type=int)
@@ -79,8 +81,9 @@ def main():
     elif args.action == "update_record":
         update_record(
             args.record_id,
-            args.team,
+            args.name,
             args.year,
+            args.team,
             args.league,
             args.goose_eggs,
             args.broken_eggs,
@@ -95,8 +98,9 @@ def main():
         delete_record(args.record_id)
     elif args.action == "create_record":
         create_record(
-            args.team,
+            args.name,
             args.year,
+            args.team,
             args.league,
             args.goose_eggs,
             args.broken_eggs,
