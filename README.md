@@ -2,7 +2,7 @@
 ### by Jiayi Zhou [![CI](https://github.com/nogibjj/Fall2023_IDS706_MiniProject5_JiayiZhou/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Fall2023_IDS706_MiniProject5_JiayiZhou/actions/workflows/cicd.yml)
 
 ### Purpose
-This is for class data engineering mini project 1. It uses Python Script interacting with SQL Database. It utilizes continuous integration using GitHub Actions to automatically set up environment, test, format and lint code. It also uses an AI Assistant--Copilot to assit the process.
+This is for class data engineering mini project 5. It uses Python Script interacting with SQL Database. It utilizes continuous integration using GitHub Actions to automatically set up environment, test, format and lint code. It also uses an AI Assistant--Copilot to assit the process.
 
 ### Functionality
 The project does: ETL-Query: [E] Extract a dataset from URL, [T] Transform, [L] Load into SQLite Database and [Q] Query For the ETL-Query lab:
